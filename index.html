@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="widt-th, initial-scale=1.0" />
+    <title> </title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- JS -->
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <main class="container">
+      <!-- HEAD -->
+      <div class="overlay hidden"></div>
+
+      <nav class="head">
+        <div class="logo">
+          <img src="assets/images/logo.svg" alt="Logo of W. company" />
+        </div>
+
+        <nav class="nav">
+          <ul class="nav-lists">
+            <li><a href="#">Home</a></li>
+
+            <li><a href="#">New</a></li>
+
+            <li><a href="#">Popular</a></li>
+
+            <li><a href="#">Trending</a></li>
+
+            <li><a href="#">Categories</a></li>
+          </ul>
+        </nav>
+
+        <div class="menu-mobile hidden">
+          <button class="menu">
+            <img src="assets/images/icon-menu.svg" alt="Menu icon" />
+          </button>
+
+          <button class="close-menu">
+            <img src="assets/images/icon-menu-close.svg" alt="close icon" />
+          </button>
+        </div>
+      </nav>
+
+      <!-- BODY 1 -->
+      <div class="body-1">
+        <picture class="body-1-img">
+          <source
+            media="(min-width: 544px)"
+            srcset="assets/images/image-web-3-desktop.jpg"
+          />
+          <img
+            class="body-1-img-mobile"
+            src="assets/images/image-web-3-mobile.jpg"
+            alt="Image of colorful blocks."
+          />
+        </picture>
+
+        <h1 class="heading">The Bright Future of Web 3.0?</h1>
+
+        <div class="body-1-content">
+          <p class="body-1-content-text">
+            We dive into the next evolution of the web that claims to put the
+            power of the platforms back into the hands of the people. But is it
+            really fulfilling its promise?
+          </p>
+
+          <button class="read-more-btn">Read more</button>
+        </div>
+
+        <div class="new">
+          <h2 class="new-heading">New</h2>
+
+          <div class="grid-3-cols">
+            <div class="section">
+              <h3 class="new-subheading">
+                <a href="#">Hydrogen VS Electric Cars</a>
+              </h3>
+
+              <p class="new-text">
+                Will hydrogen-fueled cars ever catch up to EVs?
+              </p>
+            </div>
+
+            <div class="section">
+              <h3 class="new-subheading">
+                <a href="#">The Downsides of AI Artistry</a>
+              </h3>
+
+              <p class="new-text">
+                What are the possible adverse effects of on-demand AI image
+                generation?
+              </p>
+            </div>
+
+            <div class="section no-margin">
+              <h3 class="new-subheading">
+                <a href="#">Is VC Funding Drying Up?</a>
+              </h3>
+
+              <p class="new-text no-margin">
+                Private funding by VC firms is down 50% YOY. We take a look at
+                what that means.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- BODY 1 -->
+      </div>
+
+      <!-- BODY 2 -->
+      <div class="body-2">
+        <!-- SECTION 1 -->
+        <div class="section-2">
+          <img
+            class="section-2-img"
+            src="assets/images/image-retro-pcs.jpg"
+            alt="Image of an old computer in neon light"
+          />
+
+          <div class="section-2-content">
+            <p class="section-2-content-num">01</p>
+
+            <h3 class="section-2-heading">
+              <a href="#">Reviving Retro PCs</a>
+            </h3>
+
+            <p class="section-2-text">
+              What happens when old PCs are given modern upgrades?
+            </p>
+          </div>
+        </div>
+        <!-- SECTION 1 -->
+
+        <!-- SECTION 2 -->
+        <div class="section-2">
+          <img
+            class="section-2-img"
+            src="assets/images/image-top-laptops.jpg"
+            alt="Zoom image of a keyboard"
+          />
+
+          <div class="section-2-content">
+            <p class="section-2-content-num">02</p>
+
+            <h3 class="section-2-heading">
+              <a href="#">Top 10 Laptops of 2022</a>
+            </h3>
+
+            <p class="section-2-text">
+              Our best picks for various needs and budgets.
+            </p>
+          </div>
+        </div>
+        <!-- SECTION 2 -->
+
+        <!-- SECTION 3 -->
+        <div class="section-2">
+          <img
+            class="section-2-img"
+            src="assets/images/image-gaming-growth.jpg"
+            alt="Image of console controller"
+          />
+
+          <div class="section-2-content">
+            <p class="section-2-content-num">03</p>
+
+            <h3 class="section-2-heading">
+              <a href="#">The Growth of Gaming</a>
+            </h3>
+
+            <p class="section-2-text">
+              How the pandemic has sparked fresh opportunities.
+            </p>
+          </div>
+        </div>
+        <!-- SECTION 3 -->
+      </div>
+    </main>
+  </body>
+</html>
